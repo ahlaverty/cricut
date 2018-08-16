@@ -18,6 +18,10 @@ body{
 	color:#ffffff;
 }
 
+.jumbotron{
+	background: #ffcb0b;
+}
+
 .section{
 	display:flex;
 	flex-direction: column;
@@ -57,4 +61,18 @@ body{
 #umLogo{
 	background: #00274c;
 	max-height: 64px;
+}
+
+i.fa-paint-brush{
+	color:#0063c2;
+}
+
+.artcontainer{
+	background: #e9ecef;
+}
+
+@media(min-width: 992px){
+	.jumbotron > .container{
+		text-align: center;
+	}
 }
