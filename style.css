@@ -8,3 +8,14 @@
 	justify-content: center;
 	color:#ffffff;
 }
+
+.section{
+	flex-direction: column;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.section > i{
+	margin-bottom: 1rem;
+}
