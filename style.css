@@ -1,0 +1,10 @@
+.navbar-brand, .navbar-brand:visited, .nav-link, .nav-link:visited{
+	color:#ffffff;
+}
+
+.navbar-toggler-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#ffffff;
+}
