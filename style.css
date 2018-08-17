@@ -75,9 +75,8 @@ i.fa-paint-brush{
 	padding: 2rem 0;
 }
 
-#artCarousel img{
-	height:250px;
-
+#artCarousel .carousel-item img{
+	width:75%;
 }
 
 footer{
@@ -88,6 +87,7 @@ footer{
 footer > h5{
 	color:#ffffff;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 @media(min-width: 992px){
