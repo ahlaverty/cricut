@@ -1,4 +1,3 @@
-
 body{
 	font-family: 'Nunito Sans', sans-serif;
 }
@@ -9,6 +8,10 @@ body{
 
 .navbar-brand, .navbar-brand:visited, .nav-link, .nav-link:visited{
 	color:#ffffff;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+    color:#ffcb0b;
 }
 
 .navbar-toggler-icon{
@@ -73,6 +76,10 @@ i.fa-paint-brush{
 	background: #e9ecef;
 	margin-top: 2rem;
 	padding: 2.5rem 0;
+}
+
+.carousel-chevron{
+	color: #ffcb0b;
 }
 
 footer{
