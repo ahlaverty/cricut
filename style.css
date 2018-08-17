@@ -68,7 +68,26 @@ i.fa-paint-brush{
 }
 
 .artcontainer{
+	display: flex;
+	justify-content: center;
 	background: #e9ecef;
+	margin-top: 2rem;
+	padding: 2rem 0;
+}
+
+#artCarousel img{
+	height:250px;
+
+}
+
+footer{
+	padding:1rem;
+	background: #00274c;
+}
+
+footer > h5{
+	color:#ffffff;
+	text-align: center;
 }
 
 @media(min-width: 992px){
